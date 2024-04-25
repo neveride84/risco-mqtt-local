@@ -97,7 +97,7 @@ Each panel must have a unique **panel_name** value in its configuration file.
 
 Topics format is `riscopanel/${panel_node_id}/<partition_id>/set` where **partition_id** is the id of the partition
 
-Payload could be : **disarmed** if risco panel is in disarmed mode,**armed_home** if risco panel is in armed at home mode and **armed_away** if risco panel is in armed away mode.
+Payload could be : **DISARM** if risco panel should be disarmed, **ARM_HOME** if risco panel should be armed at home mode and **ARM_AWAY** if risco panel should be in armed away mode.
 
 ## Publish Topics
 
